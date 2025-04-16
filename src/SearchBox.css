@@ -1,0 +1,131 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html,
+body {
+	height: 100%;
+	width: 100%;
+	font-family: "Poppins", sans-serif;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	overflow: hidden;
+}
+
+/* Seasonal Backgrounds */
+body.spring {
+	background: linear-gradient(135deg, #d4fc79, #96e6a1);
+}
+body.summer {
+	background: linear-gradient(135deg, #fbc2eb, #a6c1ee);
+}
+body.autumn {
+	background: linear-gradient(135deg, #f6d365, #fda085);
+}
+body.winter {
+	background: linear-gradient(135deg, #c9d6ff, #e2e2e2);
+}
+
+/* App Container */
+.container {
+	width: 100%;
+	max-width: 460px;
+	height: 85vh;
+	background: #fff;
+	padding: 1.5rem;
+	border-radius: 20px;
+	box-shadow: 0 12px 30px rgba(0, 0, 0, 0.1);
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	overflow: hidden;
+}
+
+/* Title */
+h2 {
+	font-size: 2rem;
+	font-weight: 600;
+	color: #2c3e50;
+	margin-bottom: 1.5rem;
+}
+
+/* Search Box */
+.searchBox form {
+	display: flex;
+	gap: 0.8rem;
+	justify-content: center;
+	margin-bottom: 1.5rem;
+	flex-wrap: wrap;
+}
+
+.MuiTextField-root {
+	flex: 1;
+	min-width: 200px;
+}
+
+.MuiButton-root {
+	background-color: #3498db !important;
+	color: white;
+	font-weight: 500;
+	padding: 0.6rem 1rem;
+	text-transform: none;
+	border-radius: 8px;
+	transition: background-color 0.3s ease;
+}
+
+.MuiButton-root:hover {
+	background-color: #2c80b4 !important;
+}
+
+/* Info Box Styling */
+.InfoBox {
+	margin-top: 0.5rem;
+	flex-grow: 1;
+}
+
+/* Error Message */
+.error {
+	color: #e74c3c;
+	margin-top: 10px;
+	font-weight: bold;
+	font-size: 0.9rem;
+	background-color: #fdecea;
+	padding: 10px;
+	border-radius: 8px;
+	box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+}
+
+/* Responsive */
+@media (max-width: 500px) {
+	.container {
+		padding: 1rem;
+		height: 90vh;
+	}
+
+	h2 {
+		font-size: 1.6rem;
+	}
+
+	.searchBox form {
+		flex-direction: column;
+	}
+
+	.MuiButton-root {
+		width: 100%;
+	}
+}
+
+.search-form {
+	display: flex;
+	gap: 10px;
+	align-items: flex-start;
+}
+
+.search-btn {
+	height: 56px;
+	white-space: nowrap;
+}

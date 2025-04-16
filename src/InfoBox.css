@@ -1,0 +1,63 @@
+.InfoBox {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 5vh;
+	padding: 12px;
+}
+
+/* Card Container */
+.InfoBox .MuiCard-root {
+	width: 100%;
+	max-width: 360px;
+	padding: 16px;
+	border-radius: 18px;
+	box-shadow: 0px 8px 30px rgba(0, 0, 0, 0.1);
+	background-color: #ffffff;
+	transition: transform 0.3s ease, box-shadow 0.3s ease;
+	transform: perspective(1000px) translateZ(0);
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	height: 100%;
+}
+
+/* Hover effect */
+.InfoBox .MuiCard-root:hover {
+	transform: perspective(1000px) translateZ(6px) scale(1.015);
+	box-shadow: 0px 10px 35px rgba(0, 0, 0, 0.15);
+}
+
+/* Image */
+.InfoBox img {
+	width: 100%;
+	border-radius: 10px;
+	margin-bottom: 12px;
+	object-fit: cover;
+	max-height: 140px;
+}
+
+/* Typography */
+.InfoBox .MuiTypography-root {
+	color: #2c3e50;
+	margin: 6px 0;
+	font-size: 0.95rem;
+}
+
+.InfoBox .MuiTypography-h5 {
+	font-weight: 700;
+	font-size: 1.4rem;
+	margin-bottom: 10px;
+}
+
+.InfoBox .MuiTypography-body1 {
+	font-size: 0.95rem;
+	line-height: 1.5;
+	color: #555;
+	text-align: center;
+}
+
+.InfoBox .MuiTypography-body1 i b {
+	color: #000;
+}
