@@ -1,0 +1,18 @@
+{
+  "name": "WeatherWise - Live Weather & Climate Insights",
+  "short_name": "WeatherWise",
+  "description": "Know the weather. Plan better. Real-time forecasts, air quality, radar compass, and interactive charts.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#080E1E",
+  "theme_color": "#080E1E",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/vite.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}

@@ -7,6 +7,7 @@
 		"dev": "vite",
 		"build": "vite build",
 		"lint": "eslint .",
+		"test": "node --test",
 		"preview": "vite preview",
 		"start": "serve -s dist"
 	},
@@ -16,8 +17,10 @@
 		"@fontsource/roboto": "^5.2.5",
 		"@mui/icons-material": "^7.0.1",
 		"@mui/material": "^7.0.1",
+		"lucide-react": "^1.70.0",
 		"react": "^19.0.0",
 		"react-dom": "^19.0.0",
+		"recharts": "^3.10.1",
 		"serve": "^14.2.0"
 	},
 	"devDependencies": {
