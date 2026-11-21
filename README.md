@@ -219,25 +219,6 @@ The production build uses Vite and Rollup code-splitting to isolate vendor depen
 
 ---
 
-## Deployment
-
-### Deploying to Vercel
-
-The project includes a pre-configured `vercel.json` file providing single-page application routing and asset caching headers.
-
-#### Option 1: Vercel CLI
-```bash
-npm install -g vercel
-vercel
-```
-
-#### Option 2: Vercel Web Dashboard
-1. Push your repository to GitHub.
-2. Connect your repository on Vercel.
-3. The framework preset is automatically detected as Vite.
-4. Click Deploy.
-
----
 
 ## API Credits and Attribution
 
@@ -250,3 +231,6 @@ vercel
 ## License
 
 This project is licensed under the MIT License. See the LICENSE file for details.
+
+## Author
+Suraj Deep Kumar Mehta
