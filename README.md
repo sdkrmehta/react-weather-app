@@ -151,7 +151,7 @@ react-weather-app/
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/react-weather-app.git
+   git clone https://github.com/sdkrmehta/react-weather-app.git
    cd react-weather-app
    ```
 
